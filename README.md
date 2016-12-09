@@ -1,10 +1,11 @@
 ### Routes
 
+https://crud-knex.herokuapp.com/
 
-Lists the available beers
+List the available beers
 
-`/beers`
+`GET /beers`
 
-List individual beer
+List an individual beer
 
-`/beer/:id`
+`GET /beer/:id`
