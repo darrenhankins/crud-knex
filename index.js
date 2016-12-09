@@ -25,7 +25,7 @@ app.get('/beers', (req,res)=> {
 });
 
 // Get beer by id
-app.get('/beer  /:id', function(req, res){
+app.get('/beer/:id', function(req, res){
   knex('beers')
   .where('id', req.params.id)
   .first()
